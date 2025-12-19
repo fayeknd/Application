@@ -85,7 +85,7 @@ public:
 		if (KTYGlobal::WindowFocused()) {
 			entity->transform.localRotation.x += angle.y;
 			entity->transform.localRotation.y += -angle.x;
-			//entity->transform.RotateAngleAxis(Math::Radians(angle.x), entity->transform.up());
+			//entity->transform.RotateAngleAxis(Math::deg2rad(angle.x), entity->transform.up());
 		}
 		if (autoClamp) {
 			entity->transform.localRotation.x = Math::clamp(entity->transform.localRotation.x, min_pitchclamp, max_pitchclamp);
@@ -114,12 +114,12 @@ public:
 		CamLog.CLog("Camera on entity " + entity->name + " set to render @ " + std::to_string((int)renderResolution.x) + "x" + std::to_string((int)renderResolution.y));
 	}
 
-
-	void Update() override {
-
+	void CameraDraw(bool force = false) {
+		if (mainCamera == this && !force)
+			return;
 		framebuffer->Use();
 		activeCamera = this;
-		
+
 		if (viewportMode == CameraViewportMode::FixedToWindow) {
 			viewPort = Viewport(0, 0, (int)KTYGlobal::renderSize.x, (int)KTYGlobal::renderSize.y);
 		}
@@ -139,6 +139,11 @@ public:
 		else
 			entity->transform.WorldMatrix();
 		Object::RenderFunc(); //Draw objects
+
+	}
+
+	void Update() override {
+		CameraDraw();
 	}
 	float fieldOfView = (float)75;
 	// TODO : Create a rendertexture 

@@ -304,11 +304,15 @@ public:
 };
 class Object {
 private:
+	static inline DebugLogger ecsLog;
 	static std::unique_ptr<EntityManager> mEntityManager;
 	static std::unique_ptr<EntitySystemManager> mSystemManager;
 public:
 	static std::unique_ptr<ComponentManager> mComponentManager;
 	static void Init() {
+		ecsLog.defaultColour = DBG_BLUE;
+		ecsLog.LoggerName = "ECS";
+		ecsLog.CLog("Entity Component System active.");
 		mComponentManager = std::make_unique<ComponentManager>();
 		mEntityManager = std::make_unique<EntityManager>();
 		mSystemManager = std::make_unique<EntitySystemManager>();

@@ -22,7 +22,7 @@ Mesh MeshGenerator::Circle(unsigned int sides) {
         UV.push_back(Vector2::Distance(cursor.xy(), Vector2(-1, -1)).Normalized());
         Normals.push_back(Vector3(0.0f, 0.0f, -1.0f));
 
-        cursor = Vector3(Vector2::RotateAround(cursor.xy(), center.xy(), Math::Radians(angleStep)), 0);
+        cursor = Vector3(Vector2::RotateAround(cursor.xy(), center.xy(), Math::deg2rad(angleStep)), 0);
     }
     unsigned int maxSize = Positions.size() - 1;
     for (int i = 0; i < Positions.size(); i++) {

@@ -43,14 +43,15 @@ void Screenshot::PNG_RGBA8() {
 	glReadBuffer(GL_FRONT);
 	glReadPixels(0, 0, w, h, GL_RGBA, GL_UNSIGNED_BYTE, pixelBuffer.data());
 
-	const char* filename = (
-		std::to_string(Time::dateTime::year()) + std::string("-")
-		+ std::to_string(Time::dateTime::month()) + std::string("-")
-		+ std::to_string(Time::dateTime::day()) + std::string("-")
+	std::string filename = (
+		(std::to_string(Time::dateTime::year()) + std::string("-"))
+		+ (std::to_string(Time::dateTime::month()) + std::string("-"))
+		+ (std::to_string(Time::dateTime::day()) + std::string("-"))
 		+ ((Time::dateTime::hour() < 10) ? std::string("0") + std::to_string(Time::dateTime::hour()) : std::to_string(Time::dateTime::hour()))
 		+ ((Time::dateTime::minute() < 10) ? std::string("0") + std::to_string(Time::dateTime::minute()) : std::to_string(Time::dateTime::minute()))
 		+ ((Time::dateTime::second() < 10) ? std::string("0") + std::to_string(Time::dateTime::second()) : std::to_string(Time::dateTime::second()))
-		).c_str();
+		);
+	std::cout << filename << std::endl;
 	std::filesystem::create_directory(output);
 	output += std::string("\\") + filename;
 	int index = 1;

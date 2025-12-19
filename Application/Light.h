@@ -49,7 +49,7 @@ public:
 	void SendPointLightData(Shader* s) {
 		std::string index = "pointLights[" + (std::to_string(light.lightID)) + "]";
 
-		s->SetVar<Vector3>(light.uniqueTransform.position + entity->transform.position, (index + (std::string)".position").c_str());
+		s->SetVar<Vector3>(light.uniqueTransform.GlobalPosition() + entity->transform.GlobalPosition(), (index + (std::string)".position").c_str());
 
 		s->SetVar<float>(light.constant,   (index + (std::string)".constant").c_str());
 		s->SetVar<float>(light.linear,     (index + (std::string)".linear").c_str());

@@ -22,9 +22,9 @@ private:
 
 		transformMatrix = glm::translate(glm::mat4(1), pos.glm());
 		
-		rotationMatrix = glm::rotate(glm::mat4(1), (float)Math::Radians(rot.y), Vector3::YAxis().glm());
-		rotationMatrix = glm::rotate(rotationMatrix, (float)Math::Radians(rot.x), Vector3::XAxis().glm());
-		rotationMatrix = glm::rotate(rotationMatrix, (float)Math::Radians(rot.z), Vector3::ZAxis().glm());
+		rotationMatrix = glm::rotate(glm::mat4(1), (float)Math::deg2rad(rot.y), Vector3::YAxis().glm());
+		rotationMatrix = glm::rotate(rotationMatrix, (float)Math::deg2rad(rot.x), Vector3::XAxis().glm());
+		rotationMatrix = glm::rotate(rotationMatrix, (float)Math::deg2rad(rot.z), Vector3::ZAxis().glm());
 
 		scaleMatrix = glm::scale(glm::mat4(1), scale.glm());
 
@@ -33,7 +33,7 @@ private:
 		globalPosition = Vector3(_calcMatrix[3][0], _calcMatrix[3][1], _calcMatrix[3][2]);
 
 		glm::extractEulerAngleYXZ(_calcMatrix, y, p, r);
-		globalRotation = Math::Degrees(Vector3(p, y, r));
+		globalRotation = Math::rad2deg(Vector3(p, y, r));
 
 		return _calcMatrix;
 	};
@@ -97,7 +97,7 @@ public:
 		return localOrWorldMatrix(position + localPosition, scale * localScale, rotation + localRotation);
 	}
 	Vector3 forward() {
-		Vector3 euler = Math::Radians(globalRotation);
+		Vector3 euler = Math::deg2rad(globalRotation);
 		return Vector3(
 			glm::cos (euler.x) * glm::sin(euler.y),
 			-glm::sin(euler.x),
@@ -106,7 +106,7 @@ public:
 	}
 
 	Vector3 left() {
-		Vector3 euler = Math::Radians(globalRotation);
+		Vector3 euler = Math::deg2rad(globalRotation);
 		return Vector3(
 			 glm::cos(euler.y),
 			0,
@@ -115,7 +115,7 @@ public:
 	}
 
 	Vector3 up() {
-		Vector3 euler = Math::Radians(globalRotation);
+		Vector3 euler = Math::deg2rad(globalRotation);
 		return Vector3(
 			glm::sin(euler.x) * glm::sin(euler.y),
 			glm::cos(euler.x),

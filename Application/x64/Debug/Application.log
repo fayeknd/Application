@@ -1,160 +1,1146 @@
 ﻿C:\Program Files\Microsoft Visual Studio\18\Insiders\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(548,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Application.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Scanning sources for module dependencies...
+  Camera.h
+  CameraController.h
+  Compiling...
+  Camera.h
+  CameraController.h
+C:\Users\felix\source\repos\Application\Application\CameraController.h(2,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.h')
+  
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.h')
+  
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.h')
+  
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(88,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(89,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(93,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(94,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(217,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(218,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(129,3): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,58): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,46): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,34): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(129,3): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,58): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,46): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,34): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Entity.h(15,16): warning C5260: the constant variable 'MaxEntities' has internal linkage in an included header file context, but external linkage in imported header unit context; consider declaring it 'inline' as well if it will be shared across translation units, or 'static' to express intent to use it local to this translation unit
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Entity.h(16,21): warning C5260: the constant variable 'MaxComponents' has internal linkage in an included header file context, but external linkage in imported header unit context; consider declaring it 'inline' as well if it will be shared across translation units, or 'static' to express intent to use it local to this translation unit
+  (compiling source file 'Camera.h')
+  
+C:\Users\felix\source\repos\Application\Application\Entity.h(15,16): warning C5260: the constant variable 'MaxEntities' has internal linkage in an included header file context, but external linkage in imported header unit context; consider declaring it 'inline' as well if it will be shared across translation units, or 'static' to express intent to use it local to this translation unit
+  (compiling source file 'CameraController.h')
+  
+C:\Users\felix\source\repos\Application\Application\Entity.h(16,21): warning C5260: the constant variable 'MaxComponents' has internal linkage in an included header file context, but external linkage in imported header unit context; consider declaring it 'inline' as well if it will be shared across translation units, or 'static' to express intent to use it local to this translation unit
+  (compiling source file 'CameraController.h')
+  
+  Camera.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(129,3): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,58): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,46): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,34): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'Camera.cpp')
+  
+  DeviceInfo.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'DeviceInfo.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'DeviceInfo.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'DeviceInfo.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'DeviceInfo.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'DeviceInfo.cpp')
+  
+  Entity.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+  Framebuffer.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'Framebuffer.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'Framebuffer.cpp')
+  
+  Input.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(88,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(89,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(93,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(94,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(217,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(218,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  (compiling source file 'Input.cpp')
+  
+  Light.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Light.cpp')
+  
+  MeshGenerator.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MeshGenerator.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MeshGenerator.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MeshGenerator.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MeshGenerator.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MeshGenerator.cpp')
+  
+  ProgramBase.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(88,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(89,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(93,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(94,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(217,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(218,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(129,3): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,58): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,46): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,34): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(69,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(69,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(70,174): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(70,92): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ProgramBase.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\ProgramBase.cpp(56,78): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.cpp(56,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.cpp(60,173): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.cpp(60,91): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  ScreenshotPNG.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ScreenshotPNG.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ScreenshotPNG.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ScreenshotPNG.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ScreenshotPNG.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ScreenshotPNG.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\ScreenshotPNG.cpp(31,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ScreenshotPNG.cpp(32,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Shader.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'Shader.cpp')
+  
+  Texture.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'Texture.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'Texture.cpp')
+  
+  circle.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\circle.cpp(12,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\circle.cpp(20,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\felix\source\repos\Application\Application\circle.cpp(25,87): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\circle.cpp(27,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\circle.cpp(31,19): warning C4018: '>': signed/unsigned mismatch
+  cube.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cube.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cube.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cube.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cube.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cube.cpp')
+  
+  cubesphere.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cubesphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cubesphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cubesphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cubesphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'cubesphere.cpp')
+  
+  defaultshaders.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'defaultshaders.cpp')
+  
   main.cpp
-C:\Users\faye\Desktop\Projects\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\main.cpp(6,21): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\faye\Desktop\Projects\Application\Application\KTYMouse.h(88,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\main.cpp(6,21): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(88,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\KTYMouse.h(89,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(89,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\KTYMouse.h(93,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(93,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\KTYMouse.h(94,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(94,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\KTYMouse.h(217,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(217,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\KTYMouse.h(218,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+C:\Users\felix\source\repos\Application\Application\KTYMouse.h(218,22): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\felix\source\repos\Application\Application\Texture.h(67,23): warning C4018: '<': signed/unsigned mismatch
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(68,36): warning C4244:         with
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(68,36): warning C4244:         [
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(68,36): warning C4244:         ]
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(68,36): warning C4244:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(112,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(113,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(114,24): warning C4244:         with
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(114,24): warning C4244:         [
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(114,24): warning C4244:         ]
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(114,24): warning C4244:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(115,24): warning C4244:         with
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(115,24): warning C4244:         [
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(115,24): warning C4244:         ]
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(115,24): warning C4244:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(116,24): warning C4244:         with
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(116,24): warning C4244:         [
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(116,24): warning C4244:         ]
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(116,24): warning C4244:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(117,24): warning C4244:         with
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(117,24): warning C4244:         [
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
-C:\Users\faye\Desktop\Projects\Application\Application\Texture.h(117,24): warning C4244:         ]
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         with
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         [
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:             _Ty=unsigned char
+C:\Users\felix\source\repos\Application\Application\Texture.h(117,24): warning C4244:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(48,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(48,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(48,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(52,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(52,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(52,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(52,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(56,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(56,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(56,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Shader.h(56,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Shader.h(56,59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\felix\source\repos\Application\Application\Framebuffer.h(3,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Camera.h(129,3): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(129,3): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Camera.h(132,58): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,58): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Camera.h(132,46): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,46): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Camera.h(132,34): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,34): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Camera.h(132,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Camera.h(132,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\ProgramBase.h(68,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(69,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\ProgramBase.h(68,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(69,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\ProgramBase.h(69,174): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(70,174): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\ProgramBase.h(69,92): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\felix\source\repos\Application\Application\ProgramBase.h(70,92): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Renderer.h(111,58): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Renderer.h(111,58): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Renderer.h(114,56): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\felix\source\repos\Application\Application\Renderer.h(114,56): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\CameraController.h(2,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\felix\source\repos\Application\Application\CameraController.h(2,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\CameraController.h(71,48): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\felix\source\repos\Application\Application\Portal.h(2,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\Portal.h(2,20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\felix\source\repos\Application\Application\MainProgram.cpp(99,24): warning C4305: '=': truncation from 'double' to 'float'
   (compiling source file 'main.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\MainProgram.cpp(104,24): warning C4305: '=': truncation from 'double' to 'float'
-  (compiling source file 'main.cpp')
+  objects.cpp
+  plane.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'plane.cpp')
   
-C:\Users\faye\Desktop\Projects\Application\Application\MainProgram.cpp(115,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file 'main.cpp')
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'plane.cpp')
   
-  Application.vcxproj -> C:\Users\faye\Desktop\Projects\Application\x64\Debug\KTYEngine.exe
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'plane.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'plane.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'plane.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\plane.cpp(12,20): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\felix\source\repos\Application\Application\plane.cpp(13,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\felix\source\repos\Application\Application\plane.cpp(20,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\felix\source\repos\Application\Application\plane.cpp(24,31): warning C4018: '<=': signed/unsigned mismatch
+  quad.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'quad.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'quad.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'quad.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'quad.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'quad.cpp')
+  
+  uvsphere.cpp
+C:\Users\felix\source\repos\Application\Application\Vector2.h(47,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'uvsphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector2.h(58,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'uvsphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector3.h(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'uvsphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(40,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'uvsphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\Vector4.h(55,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'uvsphere.cpp')
+  
+C:\Users\felix\source\repos\Application\Application\uvsphere.cpp(8,32): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\felix\source\repos\Application\Application\uvsphere.cpp(10,36): warning C4018: '<=': signed/unsigned mismatch
+  Generating Code...
+C:\Users\felix\source\repos\Application\Application\ProgramBase.cpp(107,1): warning C4715: 'Program::Begin': not all control paths return a value
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Application.vcxproj -> C:\Users\felix\source\repos\Application\x64\Debug\KTYEngine.exe

@@ -186,6 +186,7 @@
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Framebuffer.h" />
     <ClInclude Include="GLMmath.h" />
+    <ClInclude Include="InputEvents.h" />
     <ClInclude Include="Light.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Matrix4x4.h" />

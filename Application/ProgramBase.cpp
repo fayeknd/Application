@@ -73,7 +73,6 @@ int Program::Begin(std::string windowName, int winType) {
 	std::string displayAdaptor(reinterpret_cast<const char*>(glGetString(GL_RENDERER)));
 	std::string glVersion(reinterpret_cast<const char*>(glGetString(GL_SHADING_LANGUAGE_VERSION)));
 
-	GLFWLog.Empty();
 	GLFWLog.CLog("MONITOR VIDEO MODE");
 	GLFWLog.CLog("Red bits: " + std::to_string(KTYGlobal::MonitorInfo()->redBits));
 	GLFWLog.CLog("Green bits: " + std::to_string(KTYGlobal::MonitorInfo()->blueBits));
@@ -82,7 +81,6 @@ int Program::Begin(std::string windowName, int winType) {
 	std::string res = std::to_string(KTYGlobal::MonitorInfo()->width) + (std::string)"x" + std::to_string(KTYGlobal::MonitorInfo()->height) + (std::string)" @ " + std::to_string(KTYGlobal::MonitorInfo()->refreshRate) + "Hz";
 
 	GLFWLog.CLog("Monitor Resolution: " + res);
-	GLFWLog.Empty();
 
 	GLFWLog.CLog("DEVICE INFO");
 	GLFWLog.CLog("Display Adaptor: " + displayAdaptor);
@@ -100,8 +98,10 @@ int Program::Begin(std::string windowName, int winType) {
 	
 	GLFWLog.CLog("Initialising Entity Component System");
 	Object::Init();
+	GLFWLog.CLog("Initialising InputEvent System");
+	Input::InputEvents::Init();
 
 	GLFWLog.CLog("GLFW Init Time: " + std::to_string(Time::SinceStartup()));
-	GLFWLog.Empty(); 
+	GeneralComponentInitialisation(); 
 	MainLoop();
 }

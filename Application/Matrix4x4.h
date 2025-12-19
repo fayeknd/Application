@@ -72,7 +72,7 @@ public:
 	}
 	/// <summary>
 	/// Rotates matrix given theta (radians) and Vector3 axis.
-	/// Usage: "mat.Rotate(Math::Degrees(90), Vector3(0, 1, 0));" (A 90 degree rotation in the Y axis)
+	/// Usage: "mat.Rotate(Math::rad2deg(90), Vector3(0, 1, 0));" (A 90 degree rotation in the Y axis)
 	/// </summary>
 	/// <param name="theta"></param>
 	/// <param name="axis"></param>

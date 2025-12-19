@@ -177,6 +177,9 @@
     <ClInclude Include="Quaternion.h">
       <Filter>Engine\Maths\Quaternion</Filter>
     </ClInclude>
+    <ClInclude Include="InputEvents.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="IMG_2209.ico" />

@@ -16,14 +16,12 @@ class MainProgram : public Program {
 	Time::Timer timer;
 
 	Entity StuffWithComponentsOn;
-	CameraController* cc;
-
+	
 	Entity cube;
 	Entity bgCube;
 	Entity bgCube2;
 	Entity cube2;
 	Entity cube3;
-	Entity camera;
 
 	void PreInit() override { 
 		//stuff before window is built go here. things like setting window size, fullscreen mode, desired framerate. 
@@ -37,10 +35,10 @@ class MainProgram : public Program {
 		//glfwSetWindowAttrib(thisWindow, GLFW_DECORATED, false);
 
 		StuffWithComponentsOn = Entity::CreateEntity("Stuff");
-		StuffWithComponentsOn.AddComponent<CameraController>();
 		StuffWithComponentsOn.AddComponent<PortalController>();
-		cc = &StuffWithComponentsOn.GetComponent<CameraController>();
-
+		StuffWithComponentsOn.AddComponent<CameraController>();
+		
+		Entity camera = *new Entity;
 		camera = Entity::CreateEntity("MainCamera");
 		camera.AddComponent<Camera>();
 		camera.GetComponent<Camera>().clearColour = Colour(0, 0, 0, 0);
@@ -98,9 +96,6 @@ class MainProgram : public Program {
 		cube.GetComponent<MeshRenderer>().material.diffuse = tex;
 		cube.GetComponent<MeshRenderer>().material.specular = tex2;
 
-		cc->camera = &camera;
-		//cc->camera2 = &camera2;
-		//glBlendFunc(GL_SRC_ALPHA, GL_DST_COLOR);
 		Mouse::sensitivity = 0.065;
 		cube2.SetParent(&cube3);
 	}
@@ -112,10 +107,7 @@ class MainProgram : public Program {
 
 	void Update() override {
 
-		theta += Time::deltaTime();
-
-		//cube2.transform.position = Vector3(glm::cos(theta) * 3, glm::sin(theta) * 3, glm::sin(theta) * 0.3f - 2);
-		//cube2.transform.rotation.RotateAngleAxis(Time::deltaTime(), Vector3(1,0,0));
+		Debug::CLog(FrameRate());
 
 		cube3.transform.rotation.y += Time::deltaTime() * 30;
 		cube3.transform.rotation.z += Time::deltaTime() * 30;

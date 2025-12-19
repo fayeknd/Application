@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Camera.obj",
+            "outputs": [
+                "x64\\Debug\\Camera.h_141EB2BFA5F10AFB.ifc.dt.module.json",
+                "x64\\Debug\\Camera.h_141EB2BFA5F10AFB.ifc.dt.d.json",
+                "x64\\Debug\\Camera.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\felix\\source\\repos\\Application\\Application\\Camera.h",
+                    "source-path": "c:\\users\\felix\\source\\repos\\application\\application\\camera.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

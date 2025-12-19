@@ -76,8 +76,6 @@ Shader Shader::CreateShader(const char* VERTEX_SHADER_PATH, const char* FRAGMENT
 
 	glDeleteShader(vShader);
 	glDeleteShader(fShader);
-
-	ShaderLog.Empty();
 	return *this;
 }
 int Shader::CurrentID() { return _currentID; }

@@ -1,6 +1,7 @@
 #include "Gamepad.h"
 #include "KTYKeyboard.h"
 #include "KTYMouse.h"
+#include "InputEvents.h"
 
 Input::CursorState Input::Mouse::_cursorState = Input::CursorState::Visible;
 
@@ -21,6 +22,12 @@ bool Input::Mouse::enabled = true;
 bool Input::Keyboard::enabled = true;
 // TODO : Separate this from glfw.
 
+std::vector<Input::InputEvent> Input::InputEvents::events;
+DebugLogger Input::InputEvents::ieLogger;
+
+
+//old stuff
+/*
 float clamp(float num, float min, float max)
 {
 	if (num > max)
@@ -89,4 +96,4 @@ Vector2 Gamepad::RIGHT_STICK(double ft)
 	RS_X_ADDITIVE += ret.x * Sensitivity * ft;
 	RS_Y_ADDITIVE += ret.y * Sensitivity * ft;
 	return ret;
-}
+}*/

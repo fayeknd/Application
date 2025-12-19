@@ -4,71 +4,70 @@
 #include "KTYMouse.h"
 #include "Camera.h"
 #include "ScreenshotPNG.h"
+#include "InputEvents.h"
 
 using namespace Input;
 
 class CameraController : public EntityComponent {
 public:
-	bool flag = false;
-	Vector2 pos;
-
-	Entity* camera;
-	Entity* camera2;
-
-	float mult = 3;
-
-	void Update() override {
-
-		if (Keyboard::Key(pressed_this_frame, key_f12))
-			Screenshot::TakeScreenshot();
-
-		if (Mouse::Button(pressed_this_frame, mouse_right)) {
-			pos = Mouse::GetCursorPosScreen();
-			Mouse::SetCursorState(CursorState::Disabled);
-		}
-
-		if (Keyboard::Key(pressed, key_up)) {
-			Time::timescale += 1 * Time::deltaTime();
-		}
-		if (Keyboard::Key(pressed, key_down)) {
-			Time::timescale -= 1 * Time::deltaTime();
-		}
-
-		(Time::timescale <= 0) ? Time::timescale = 0 : NULL;
-
-		
-		if (Mouse::Button(pressed, mouse_right)) {
-			Camera::mainCamera->Look(Mouse::CursorDelta());
-		}
-
-		if (Mouse::Button(depressed_this_frame, mouse_right)) {
-			Mouse::SetCursorPosScreen(pos);
-			Mouse::SetCursorState(CursorState::Visible);
-		}
-
-		if (Keyboard::Key(pressed, key_W))
-			Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.forward() * mult;
-
-		if (Keyboard::Key(pressed, key_S))
-			Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.back() * mult;
+	static inline Vector2 pos;
+	static inline float mult = 3;
 
 
-
-		if (Keyboard::Key(pressed, key_E))
-			Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.up() * mult;
-
-		if (Keyboard::Key(pressed, key_Q))
-			Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.down() * mult;
-
-
-
-		if (Keyboard::Key(pressed, key_A))
-			Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.left() * mult;
-
-		if (Keyboard::Key(pressed, key_D))
-			Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.right() * mult;
-
-		if (Keyboard::Key(pressed_this_frame, key_R));
-			//(Camera::mainCamera == &camera->GetComponent<Camera>()) ? camera2->GetComponent<Camera>().SetMainCamera() : camera->GetComponent<Camera>().SetMainCamera();
+	static void MoveForward(float v) {
+		Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.forward() * mult;
 	}
+	static void MoveBackward(float v) {
+		Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.back() * mult;
+	}
+
+	static void MoveLeft(float v) {
+		Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.left() * mult;
+	}
+	static void MoveRight(float v) {
+		Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.right() * mult;
+	}
+
+	static void MoveUp(float v) {
+		Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.up() * mult;
+	}
+	static void MoveDown(float v) {
+		Camera::mainCamera->entity->transform.localPosition += Time::deltaTime() * Camera::mainCamera->entity->transform.down() * mult;
+	}
+
+	static void MouseLeftClick(float v) {
+		pos = Mouse::GetCursorPosScreen();
+		Mouse::SetCursorState(CursorState::Disabled);
+	}
+	static void MouseLeftPress(float v) {
+		Camera::mainCamera->Look(Mouse::CursorDelta());
+	}
+	static void MouseLeftRelease(float v) {
+		Mouse::SetCursorPosScreen(pos);
+		Mouse::SetCursorState(CursorState::Visible);
+	}
+
+	static void TakeScreenshot(float val) {
+		Screenshot::TakeScreenshot();
+	}
+
+	void Start() override {
+		
+		InputEvents::RegisterEvent("Forward", std::vector<int>{key_W, key_up})->RegisterFunc(pressed, MoveForward);
+		InputEvents::RegisterEvent("Backward", std::vector<int>{key_S, key_down})->RegisterFunc(pressed, MoveBackward);
+
+		InputEvents::RegisterEvent("Left", std::vector<int>{key_A, key_left})->RegisterFunc(pressed, MoveLeft);
+		InputEvents::RegisterEvent("Right", std::vector<int>{key_D, key_right})->RegisterFunc(pressed, MoveRight);
+		
+		InputEvents::RegisterEvent("Up", std::vector<int>{key_E, key_space})->RegisterFunc(pressed, MoveUp);
+		InputEvents::RegisterEvent("Down", std::vector<int>{key_Q, key_left_shift})->RegisterFunc(pressed, MoveDown);
+
+		InputEvents::RegisterEvent("TakeScreenshot", key_f12)->RegisterFunc(pressed_this_frame, TakeScreenshot);
+
+		InputEvent* rm = InputEvents::RegisterEvent("RightMouse", std::vector<int>{mouse_right, key_G});
+		rm->RegisterFunc(pressed_this_frame, MouseLeftClick);
+		rm->RegisterFunc(depressed_this_frame, MouseLeftRelease);
+		rm->RegisterFunc(pressed, MouseLeftPress);
+	}
+
 };

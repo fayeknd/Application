@@ -105,7 +105,7 @@ public:
 	// R G B A  R G B A  R G B A
 	// R G B A  R G B A  R G B A
 	// R G B A  R G B A  R G B A
-	// x0,y0
+	// x0,y0 ^
 	void SetPixel(Vector2 pixel, Colour col) {
 		col *= 255; 
 		pixel = Vector2(Math::clamp(pixel.x, (double)0, _imgSize.x - 1), Math::clamp(pixel.y, (double)0, _imgSize.y - 1));  // pixel cannot be out of bounds of the array

@@ -18,6 +18,7 @@
 #include "Light.h"
 #include "ScreenshotPNG.h"
 #include "Framebuffer.h"
+#include "InputEvents.h"
 
 // Am aware having a program class inherit from "program" is not needed anymore but oh well
 
@@ -93,13 +94,19 @@ public:
 	virtual void PostRender() {}
 	virtual void Start() {}
 
-	int MainLoop() {
+	void GeneralComponentInitialisation() {
+		
 		DefaultShaders::Create();
 		KTYGlobal::SetMainWindow(thisWindow);
 		SetVsyncState(true);
 		Framebuffer::Default = new Framebuffer();
+
 		Start();
 		Input::Mouse::SetMouseCallback();
+	}
+
+	int MainLoop() {
+
 		while (!glfwWindowShouldClose(thisWindow)) {
 
 			if (!deltaTimer.Counting())
@@ -109,11 +116,14 @@ public:
 																     (capping framerates)*/
 				UpdateWindowSize();
 				Input::Mouse::MousePreUpdate();                    //Resets mouse deltas and booleans
+				Input::InputEvents::EventUpdate();                 //Updates InputEvents logic, which recursively updates every function subscribed to an InputEvent.
 				Light::ResetIDs();								   //Resets light IDs for dynamic reassignment
 				Update();										   //Updaes main game logic loop
 				Object::Update();								   //Updates all the individual objects one by one
+				Camera::mainCamera->CameraDraw(true);              //Draws main camera after any other cameras have drawn. (This fixes possible camera desync issues.)
 				PostRender();                                      //Runs after all rendering is done.
-				Screenshot::PNG_RGBA8();							   //Takes a screenshot if a screenshot has been queued.
+				Screenshot::PNG_RGBA8();						   //Takes a screenshot only if a screenshot has been queued. (This means when a screenshot is taken during a frame,
+																   // it will take the screenshot AFTER the frame is rendered.)
 
 				if (Camera::mainCamera == nullptr) {
 					Debug::Error("Camera::mainCamera is a nullptr! Create a camera to render the scene.");
@@ -121,7 +131,7 @@ public:
 				else
 				{
 					glfwSwapBuffers(thisWindow);				   /*Swaps front and back render buffer.
-																	 (Does not do this if no camera is in use)*/
+																	 (No point doing this if no camera is in use)*/
 				}												  
 				glfwPollEvents();								   //Polls GLFW events (Stuff related to various glfw functions)
 
